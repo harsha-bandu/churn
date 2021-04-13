@@ -3,14 +3,15 @@
         <center>
             <h1> Result </h1>
             
-            {% if data == 0}
-            <h2> Benign
+            {%if data == 0%}
+            <h2>ACTIVE</h2>
             
-            {% if data == 1}
-            <h2> Malignant
+            {%if data == 1%}
+            <h2>CHURN</h2>
             
             {% endif %}
             <br><br>
+            <a href='/'> HOME PAGE </a>
         </center>
     </body>
 </html>
