@@ -53,4 +53,5 @@ pickle.dump(model, open("churn.pkl","wb"))
 model_churn = pickle.load(open('churn.pkl',"rb"))
 
 #print(model.predict([[]]))
-
+print(model.predict([[16,200000,1,0,14,3,0,0,8693.6,\
+                      0,0,0,0,0,0,0,0,8693.6,3,0,0,3,2223,0]]))
